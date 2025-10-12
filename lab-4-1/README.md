@@ -23,7 +23,7 @@ ip address 192.168.11.1 255.255.255.0
 no shut
 exit
 
-interface range GigabitEthernet 0/1-2
+interface range fa0/1-2
 switchport trunk encapsulation dot1q
 switchport mode trunk
 no shut
@@ -56,7 +56,7 @@ ip address 192.168.21.1 255.255.255.0
 no shut
 exit
 
-interface range GigabitEthernet 0/1-2
+interface range fa0/1-2
 switchport trunk encapsulation 
 switchport mode trunk
 no shut
@@ -89,7 +89,7 @@ ip address 192.168.31.1 255.255.255.0
 no shut
 exit
 
-interface range GigabitEthernet 0/1-2
+interface range fa0/1-2
 switchport trunk encapsulation 
 switchport mode trunk
 no shut
@@ -115,12 +115,12 @@ vlan 110
 name West-Admin
 exit
 
-interface GigabitEthernet 0/1
+interface fa0/2
 switchport mode trunk
 no shut
 exit
 
-interface FastEthernet 0/1
+interface fa0/1
 switchport mode access
 switchport access
 vlan 100
@@ -147,12 +147,12 @@ vlan 110
 name West-Admin
 exit
 
-interface GigabitEthernet 0/2
+interface fa0/2
 switchport mode trunk
 no shut
 exit
 
-interface FastEthernet 0/1
+interface fa0/1
 switchport mode access
 switchport access
 vlan 110
