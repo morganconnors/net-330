@@ -14,3 +14,16 @@ VLAN | VLAN_NAME | Hosts Needed | Network | Netmask | Router Address | DHCP Pool
 
 <img width="922" height="627" alt="image" src="https://github.com/user-attachments/assets/7a9398e6-8e34-4b34-ad07-63c239ec2ff9" />
 
+## Screenshot of PC with DHCP
+
+<img width="693" height="328" alt="image" src="https://github.com/user-attachments/assets/d7b72b65-c262-4c97-979f-79faaee93625" />  
+<img width="693" height="328" alt="image" src="https://github.com/user-attachments/assets/06aa150b-5467-4385-949e-ea1b9d45c7c8" />
+
+## Screenshot of PCs pinging
+Counts for both subnets and north/south
+
+<img width="705" height="637" alt="image" src="https://github.com/user-attachments/assets/85bd21b0-45e3-45d4-99a2-97452686e3c6" />
+
+## DNS Resolution
+
+<img width="1382" height="714" alt="image" src="https://github.com/user-attachments/assets/4c71573f-502c-4bff-9eee-23a57cfa8c71" />
