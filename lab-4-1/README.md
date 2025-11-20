@@ -1,3 +1,11 @@
+alternative btw
+
+# screenshot
+
+central admin is on south-central switch and central pc is on north-central switch
+
+<img width="978" height="881" alt="{4DA5F986-E7FC-4160-A973-0CDD75DB77DE}" src="https://github.com/user-attachments/assets/a2000400-c9b9-4328-8c06-35bb05d330ff" />
+
 # table
 
 <img width="500" height="212" alt="image" src="https://github.com/user-attachments/assets/c37dea26-2dd6-479e-af5e-19c0bbaaa418" />
@@ -9,7 +17,6 @@
 ```
 en
 conf t
-hostname WEST-MLS
 
 vlan 100
 name West-Clinic
@@ -42,7 +49,6 @@ copy running-config startup-config
 ```
 en
 conf t
-hostname WEST-MLS
 
 vlan 200
 name West-Clinic
@@ -75,7 +81,6 @@ copy running-config startup-config
 ```
 en
 conf t
-hostname East-MLS
 
 vlan 300
 name West-Clinic
@@ -109,8 +114,6 @@ copy running-config startup-config
 en
 conf t
 
-hostname North-West-Wing-SW
-
 vlan 100
 name West-Clinic
 exit
@@ -140,8 +143,6 @@ copy running-config startup-config
 ```
 en
 conf t
-
-hostname South-West-Wing-SW
 
 vlan 100
 name West-Clinic
