@@ -3,6 +3,15 @@
 
 btv router
 ```
+en
+conf t
+hostname BTV-Router
+
+int fa0/0
+
+
+int se0/1/0
+ip address 172.16.0.1 255.255.255.252
 
 ```
 
@@ -10,7 +19,23 @@ mtl router
 ```
 en
 conf t
+hostname MTL-Rotuer
 
+int fa0/0
+ip address 172.16.20.1 255.255.0.0
+no shut
+
+int Serial0/1/0
+ip address 172.16.0.2 255.255.255.252
+no shut
+
+router ospf 1
+network 172.16.20.0 0.0.0.255 area 0
+network 172.16.0.0 0.0.0.255 area 0
+
+exit
+exit
+copy run start
 ```
 
 multilayer switch
