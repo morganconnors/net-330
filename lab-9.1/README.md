@@ -8,11 +8,24 @@ conf t
 hostname BTV-Router
 
 int fa0/0
+ip address 172.16.10.1 255.255.255.0
+no shut
 
+int fa0/1
+ip address 192.168.2.2 255.255.255.252
+no shut
 
 int se0/1/0
 ip address 172.16.0.1 255.255.255.252
+no shut
 
+router ospf 1
+network 172.16.0.0 0.0.0.255 area 0
+network 172.16.10.0 0.0.0.255 area 0
+
+exit
+exit
+copy run start
 ```
 
 mtl router 
@@ -66,17 +79,17 @@ ip address 172.16.6.1 255.255.255.0
 int vlan 10
 ip address 172.16.10.2 255.255.255.0
 
-int GigabitEthernet0/1
+int fa0/2
 switchport mode access
 switchport access vlan 5
 no shutdown
 
-int GigabitEthernet0/2
+int fa0/6
 switchport mode access
 switchport access vlan 6
 no shutdown
 
-int GigabitEthernet0/1
+int fa0/1
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport trunk allowed vlan add 5
