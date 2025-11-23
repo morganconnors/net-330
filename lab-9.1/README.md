@@ -3,10 +3,10 @@
 ping from user-laptop to montreal-laptop  
 <img width="347" height="102" alt="image" src="https://github.com/user-attachments/assets/4816968d-8248-4e3b-9a93-72d86a2c4485" />
 
-btv router screenshot
+btv router screenshot  
 <img width="538" height="250" alt="image" src="https://github.com/user-attachments/assets/7d3631bb-e8b0-4bad-907d-7517cd19364a" />
 
-mtl router screenshot
+mtl router screenshot  
 <img width="538" height="250" alt="image" src="https://github.com/user-attachments/assets/cc7b0453-8e09-4039-99fb-9b97f918acab" />
 
 
