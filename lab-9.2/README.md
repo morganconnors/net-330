@@ -14,6 +14,8 @@ Screenshot of "sh ip route" on BTV-Router
 
 Screenshot of Customer PC pinging Data-Center Station
 
+<img width="477" height="610" alt="image" src="https://github.com/user-attachments/assets/4633e620-00a9-427a-bd7a-8f222f9615cf" />
+
 
 # configs
 
@@ -35,7 +37,11 @@ default-information originate
 redistribute ospf 1
 exit
 
-router bgp 1010
+router bgp 3033
+network 172.16.0.0 mask 255.255.255.0
+network 172.16.10.0 mask 255.255.255.0
+network 172.16.0.0 mask 255.255.255.252
+neighbor 192.168.2.1 remote-as 1010
 redistribute ospf 1
 
 exit
@@ -59,8 +65,10 @@ no shut
 
 exit
 router bgp 1010
-neighbor 192.168.1.1 remote-as 2054
+neighbor 192.168.1.2 remote-as 2054
 network 10.10.52.0 mask 255.255.255.0
+neighbor 192.168.2.2 remote-as 3033
+network 192.168.2.0 mask 255.255.255.252
 
 exit
 exit
