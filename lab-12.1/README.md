@@ -1,5 +1,12 @@
 # screenshots
 
+## ipv6 show route on 3 routers
+
+
+
+
+## ping test
+
 
 # configs
 
@@ -51,6 +58,70 @@ exit
 copy run start
 ```
 
+now set autoconfig for routers
 
+cc router
+```
+en
+conf t
+int fa0/0
+ipv6 address autoconfig
+no shut
+exit
+do show ipv6 interface brief
+exit
+copy run start
+```
 
+middlebury router
+```
+en
+conf t
+int fa0/0
+ipv6 address autoconfig
+no shut
+exit
+do show ipv6 interface brief
+exit
+copy run start
+```
+
+ok now rip
+
+cc router
+```
+en
+conf t
+int fa0/0
+ipv6 rip process1 enable
+int fa0/1
+ipv6 rip process1 enable
+exit
+exit
+copy run start
+```
+
+middlebury router
+```
+en 
+conf t
+int fa0/0
+ipv6 rip process1 enable
+int fa0/1
+ipv6 rip process1 enable
+exit
+exit
+copy run start
+```
+
+vtel router
+```
+en 
+conf t
+int fa0/0
+ipv6 rip process1 enable
+exit
+exit
+copy run start
+```
 
