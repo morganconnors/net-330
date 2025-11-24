@@ -1,5 +1,17 @@
 # screenshots
 
+totally did not goof my config and have to fix it before getting screenshots
+
+ping from champ server to middle server   
+<img width="949" height="505" alt="image" src="https://github.com/user-attachments/assets/ea33f5de-a431-4957-a1f8-f92d779d75b0" />
+
+champ show ipsec  
+<img width="684" height="635" alt="image" src="https://github.com/user-attachments/assets/76ff6780-3054-4364-9d71-2cf645a8cde3" />
+
+middle show ipsec  
+<img width="684" height="554" alt="image" src="https://github.com/user-attachments/assets/887d4f2d-ef4f-43e0-bd54-643d1ea783ec" />
+
+
 # configs
 
 need to configure routers
@@ -64,7 +76,8 @@ copy run start
 ok now config end devices
 
 champ server   
-<img width="704" height="306" alt="image" src="https://github.com/user-attachments/assets/b140e60c-153f-47df-942f-bd6506cecd7c" />
+<img width="704" height="306" alt="image" src="https://github.com/user-attachments/assets/2ef3418c-a65e-4ba9-8176-dec716f471a3" />
+
 
 middlebury server   
 <img width="704" height="306" alt="image" src="https://github.com/user-attachments/assets/a4ed22ae-76e2-44a6-9118-ea80c8a25c2b" />
