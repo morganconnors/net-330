@@ -2,11 +2,18 @@
 
 ## ipv6 show route on 3 routers
 
+cc roouter  
+<img width="699" height="520" alt="image" src="https://github.com/user-attachments/assets/7f369da0-69aa-48ca-b8fd-357438d926e7" />
 
+middle router  
+<img width="699" height="520" alt="image" src="https://github.com/user-attachments/assets/21652966-e6d7-4777-9bf9-2a7e954fc5e9" />
 
+vtel router  
+<img width="699" height="520" alt="image" src="https://github.com/user-attachments/assets/180b8262-7ec7-443f-afc5-abb78913e3d3" />
 
 ## ping test
 
+<img width="1036" height="646" alt="image" src="https://github.com/user-attachments/assets/d96de14b-cf87-458a-ad09-1456cb0aa487" />
 
 # configs
 
