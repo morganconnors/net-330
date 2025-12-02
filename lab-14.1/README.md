@@ -1,4 +1,4 @@
-# deliverables
+# Lab 14-1 HAProxy Load Balancer - Lab 
 
 > Submit screenshots of the Server 1 and Server 2 pages displayed in a browser with the HAProxy IP address
 
