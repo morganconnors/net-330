@@ -31,3 +31,8 @@ serv2
 haproxy  
 <img width="597" height="95" alt="image" src="https://github.com/user-attachments/assets/2ecaf1ea-3bf0-45bb-a078-16c12c993099" />
 
+> Submit: Screenshot of logfile showing Layer 7 Down/Up messages
+
+<img width="1282" height="85" alt="image" src="https://github.com/user-attachments/assets/dae32713-ccac-4109-9e77-03fc61fd424f" />
+
+
