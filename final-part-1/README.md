@@ -36,4 +36,103 @@
 
 ---
 
+# configs
+
+## vlans
+
+west edge
+```
+en
+conf t
+vlan 20
+name Clinic
+vlan 30
+name Guest
+vlan 40
+name Building Control
+vlan 60
+name Counseling
+exit
+```
+
+main central edge
+```
+en
+conf t
+vlan 20
+name Clinic
+vlan 30
+name Guest
+vlan 40
+name Building Control
+exit
+```
+
+main data edge
+```
+en
+conf t
+vlan 70
+name production
+vlan 80
+development
+vlan 90
+name health records
+```
+
+main east edge
+```
+en
+conf t
+vlan 20
+name Clinic
+vlan 30
+name Guest
+vlan 40
+name Building Control
+vlan 50
+psych
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
