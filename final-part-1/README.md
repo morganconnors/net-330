@@ -64,7 +64,7 @@ name Clinic
 vlan 30
 name Guest
 vlan 40
-name Building Control
+name Building-Control
 exit
 ```
 
@@ -75,9 +75,9 @@ conf t
 vlan 70
 name production
 vlan 80
-development
+name development
 vlan 90
-name health records
+name health-records
 ```
 
 main east edge
@@ -89,9 +89,9 @@ name Clinic
 vlan 30
 name Guest
 vlan 40
-name Building Control
+name Building-Control
 vlan 50
-psych
+name psych
 ```
 
 
